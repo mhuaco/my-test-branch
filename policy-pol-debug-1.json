@@ -1,0 +1,66 @@
+{
+  "_id": "65fdf596421aa9c1f8f2b11b",
+  "id": "pol-debug-1",
+  "name": "pol-debug-1",
+  "org_id": "6441ccc0421aa934f3f3177a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "throttle_interval": 0,
+  "throttle_retry_limit": 0,
+  "max_query_depth": 0,
+  "access_rights": {
+    "2a7528807f8b47ec51f3405065455215": {
+      "api_name": "api12",
+      "api_id": "2a7528807f8b47ec51f3405065455215",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    },
+    "31e03e2a20474a717101dffbe994c29b": {
+      "api_name": "API-Rate-limit",
+      "api_id": "31e03e2a20474a717101dffbe994c29b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    },
+    "b52db6e5751b44334b63e79b4e032528": {
+      "api_name": "API-Transform",
+      "api_id": "b52db6e5751b44334b63e79b4e032528",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-03-22T21:18:14.313Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1714511251",
+  "meta_data": {}
+}

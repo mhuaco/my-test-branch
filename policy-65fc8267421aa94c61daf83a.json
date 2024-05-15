@@ -1,0 +1,42 @@
+{
+  "_id": "65fc8267421aa94c61daf83a",
+  "id": "65fc8267421aa94c61daf83a",
+  "name": "jwt",
+  "org_id": "6441ccc0421aa934f3f3177a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "97abd350f12747334395e51dacffcdc5": {
+      "api_name": "api10",
+      "api_id": "97abd350f12747334395e51dacffcdc5",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-03-21T18:54:31.086Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1714511484",
+  "meta_data": {}
+}

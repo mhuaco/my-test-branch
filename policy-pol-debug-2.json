@@ -1,0 +1,42 @@
+{
+  "_id": "65fdf577421aa9c1f8f2b11a",
+  "id": "pol-debug-2",
+  "name": "pol-debug-2",
+  "org_id": "6441ccc0421aa934f3f3177a",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": 3600,
+  "throttle_interval": 0,
+  "throttle_retry_limit": 0,
+  "max_query_depth": 0,
+  "access_rights": {
+    "cc36f7dc4ba84a575f230b7e7db9e354": {
+      "api_name": "api13",
+      "api_id": "cc36f7dc4ba84a575f230b7e7db9e354",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2024-03-22T21:17:43.898Z",
+  "tags": [],
+  "key_expires_in": 0,
+  "partitions": {
+    "quota": false,
+    "rate_limit": false,
+    "complexity": false,
+    "acl": false,
+    "per_api": false
+  },
+  "last_updated": "1711142263",
+  "meta_data": {}
+}
